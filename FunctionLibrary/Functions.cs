@@ -12,6 +12,41 @@ namespace FunctionLibrary
         {
             return v1 + v2;
         }
+
+        public static object Subtract(double v1, double v2)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static object Multiply(double v1, double v2)
+        {
+            return v1 * v2;
+        }
+
+        public static double Divide(double v1, double v2)
+        {
+            return v1 / v2;
+        }
+
+        public static double Sum(double[] numbers)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static double Minimum(double[] numbers)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static double Maximum(double[] numbers)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static object Average(double[] numbers)
+        {
+            throw new NotImplementedException();
+        }
     }
     public class Functions
     {
@@ -53,8 +88,6 @@ namespace FunctionLibrary
                     double svar2 = double.Parse(Console.ReadLine());
                     Console.WriteLine(Calculator.Add(svar1, svar2));
                 }
-
-                
             }
         }
     }
