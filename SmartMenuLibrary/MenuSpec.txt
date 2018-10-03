@@ -1,0 +1,11 @@
+﻿<Calculator>
+
+<Insert numbers>
+
+1;<Plus nummbers together>
+
+2;<Subtract numbers>
+
+3;<Multiply numbers>
+
+4;<Divide numbers>
