@@ -89,6 +89,32 @@ namespace FunctionLibrary
                     Console.WriteLine(Calculator.Add(svar1, svar2));
                 }
             }
+            public void MultiCall(double m)
+            {
+                if (m == 1)
+                {
+                    Console.WriteLine(GetTheAnswerToLifeTheUniverseAndEverything());
+                }
+                else if (m == 2)
+                {
+                    double mm1 = double.Parse(Console.ReadLine());
+                    double mm2 = double.Parse(Console.ReadLine());
+                    Console.WriteLine(Calculator.Multiply(mm1, mm2));
+                }
+            }
+            public void DivCall (double d)
+            {
+                if (d == 1)
+                {
+                    Console.WriteLine(GetTheAnswerToLifeTheUniverseAndEverything());
+                }
+                else if (d == 2)
+                {
+                    double dd1 = double.Parse(Console.ReadLine());
+                    double dd2 = double.Parse(Console.ReadLine());
+                    Console.WriteLine(Calculator.Divide(dd1, dd2));
+                }
+            }
         }
     }
 }
